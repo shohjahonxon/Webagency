@@ -1,0 +1,631 @@
+.header {
+    position: fixed;
+    width: 100%;
+    background: white;
+    padding: 30px 0;
+    z-index: 3;
+
+    .icon {
+        width: 100%;
+    }
+
+    .nav {
+        .nav-list {
+            display: flex;
+            align-items: center;
+            gap: 60px;
+
+            &__link {
+                font-family: Mulish;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 170%;
+                color: #333333;
+
+            }
+        }
+    }
+
+    // business
+}
+
+// business
+.business {
+    padding-top: 175px;
+
+    .title {
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 54px;
+        line-height: 140%;
+        color: #222222;
+
+    }
+
+    .text {
+
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 170%;
+        color: #494242;
+
+        &_mr {
+            max-width: 351px;
+            margin: 20px 0 36px 0;
+        }
+
+    }
+
+
+
+    .business-img {
+        position: relative;
+
+        &__one {
+            position: absolute;
+            bottom: 285px;
+            right: -119px;
+        }
+
+        &__tuo {
+            position: absolute;
+            bottom: 3px;
+            right: -119px;
+        }
+    }
+
+}
+.form-position {
+    left: 15px;
+    bottom: 198px;
+    position: relative;
+}
+
+
+form {
+
+    background: #FFFFFF;
+    border: 0.5px solid #DDDDDD;
+
+
+
+    .form-info {
+
+        .input {
+            outline: none;
+            border: 1px solid #DDDDDD;
+            background: none;
+            padding: 36px 20px;
+        }
+    }
+
+    .btn {
+        &_size {
+
+            &_sm {
+                font-family: Mulish;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 170%;
+                color: #222222;
+
+            }
+        }
+
+        &__mr {
+            margin: 0 20px 0 89px;
+        }
+    }
+}
+
+.website {
+    margin: 290px 0;
+    position: relative;
+
+    .website-wrapper {
+        background: #F9F9F9;
+        height: 670px;
+        padding: 176px 90px;
+
+        .title {
+            font-family: Mulish;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 34px;
+            line-height: 170%;
+            color: #222222;
+
+        }
+
+        .text {
+            font-family: Mulish;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 170%;
+            color: #555555;
+
+        }
+    }
+
+    .card {
+        position: absolute;
+        left: 166px;
+        top: 342px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-gap: 21px;
+
+        .card-website {
+            padding: 38px 20px;
+            background: #ffffff;
+
+            &__info {
+                display: flex;
+                flex-direction: column;
+                gap: 50px;
+            }
+        }
+
+        .icon {
+            margin-bottom: 50px;
+        }
+
+        .text {
+            font-family: Mulish;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 170%;
+            color: #333333;
+
+        }
+
+    }
+}
+
+// feature services
+
+
+.feature-services {
+    .text-link {
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 170%;
+        color: #FFA149;
+    }
+
+    .title {
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 34px;
+        line-height: 170%;
+        color: #222222;
+    }
+
+    .text {
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 170%;
+        color: #555555;
+    }
+
+    .services-card {
+        padding: 64px 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        align-items: center;
+
+        .card-link {
+
+            padding: 43px 36px;
+
+            &_border {
+                &_right {
+                    border-right: 0.5px solid #DDDDDD;
+                }
+
+                &_bottom {
+                    border-bottom: 0.5px solid #DDDDDD;
+                }
+
+            }
+
+            .title {
+                font-family: Mulish;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 24px;
+                line-height: 170%;
+                color: #333333;
+            }
+
+            .text {
+                font-family: Mulish;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 18px;
+                line-height: 170%;
+                color: #555555;
+            }
+        }
+    }
+}
+
+
+// TESTIMONIAL
+.testimonial {
+    padding: 60px 0;
+
+    .text-link {
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 170%;
+        color: #FFA149;
+    }
+
+    .title {
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 34px;
+        line-height: 170%;
+        color: #222222;
+
+    }
+
+    .peoples-opinion {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        padding: 40px 24px;
+        max-width: 480px;
+        border: 1px solid #DDDDDD;
+        box-sizing: border-box;
+        border-radius: 8px;
+        transition: all 0.35ss;
+
+        .text {
+            font-family: Mulish;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 170%;
+            color: #333333;
+        }
+
+        .opinion {
+            gap: 14px;
+
+            &__title {
+                font-family: Mulish;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 18px;
+                line-height: 170%;
+                color: #333333;
+
+            }
+
+            &__img {
+                max-width: 54px;
+                object-fit: cover;
+                width: 100%;
+                border-radius: 50%;
+            }
+        }
+
+        &:hover {
+            border: 1px solid #FFA149;
+        }
+    }
+
+    .slide {
+        display: flex;
+        gap: 30px;
+    }
+
+}
+
+
+// OUR TEAM 
+.team-from {
+    padding: 170px 0;
+
+    .text-link {
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 170%;
+        color: #FFA149;
+    }
+
+    .title {
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 34px;
+        line-height: 170%;
+        color: #222222;
+    }
+
+    .text {
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 170%;
+        color: #555555;
+    }
+
+    .team {
+        position: relative;
+
+        &__img {
+            width: 100%;
+            object-fit: cover;
+
+        }
+
+        &__item {
+            left: 32px;
+            bottom: -36px;
+            width: 100%;
+            position: absolute;
+            max-width: 317px;
+            text-align: center;
+            padding: 20px 0;
+            background: #FFFFFF;
+            border: 0.5px solid #DDDDDD;
+            box-sizing: border-box;
+        }
+
+        &__title {
+            font-family: Mulish;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 170%;
+            text-align: center;
+            color: #333333;
+        }
+    }
+}
+
+// Choose a plan for your website
+.pricing {
+    padding-bottom:120px  ;
+
+    .text-link {
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 170%;
+        color: #FFA149;
+    }
+
+    .title {
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 34px;
+        line-height: 170%;
+        color: #222222;
+    }
+
+    .text {
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 170%;
+        color: #555555;
+    }
+
+    .pricing-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 60px;
+    }
+
+    .our-pricing {
+        max-width: 320px;
+        width: 100%;
+        background: #FFFFFF;
+        border: 1px solid #DDDDDD;
+        box-sizing: border-box;
+        padding: 40px 30px;
+
+        &__title {
+            font-family: Mulish;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 170%;
+            color: #333333;
+        }
+
+        &__text {
+            font-family: Mulish;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 28px;
+            line-height: 170%;
+            color: #333333;
+        }
+
+        .text {
+            &__span {
+                font-family: Mulish;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 28px;
+                line-height: 170%;
+                color: #777777;
+            }
+        }
+
+
+
+    }
+
+}
+
+// client
+
+.client {
+    .text-link {
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 170%;
+        color: #FFA149;
+
+    }
+
+    .title {
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 34px;
+        line-height: 170%;
+        color: #222222;
+    }
+    .client-icon{
+        flex-wrap: wrap;
+    }
+}
+
+
+// business
+.start-business{
+margin: 70px 0  70px 0;
+     background: #F9F9F9;
+    .start-business-info{
+        padding: 120px 0;
+        max-width: 650px;
+        margin: 0 auto;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 48px;
+        flex-direction: column;
+       
+        .title{
+            font-family: Mulish;
+            font-style: normal;
+            font-weight: 800;
+            font-size: 48px;
+            line-height: 160%;
+            color: #222222;
+
+        }
+    }
+}
+
+
+// footer
+
+.footer{
+    .footer-info{
+        .text{
+            font-family: Mulish;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 170%;
+            color: #777777;
+        }
+        .network{
+            gap: 27px;
+            .network-link{
+                &__fecebook{
+                    transition: all 0.35ss;
+                    &:hover {
+                        background: rgb(255, 255, 255);
+                        path{
+                            fill: rgb(34, 98, 182);
+
+                        }
+                    }
+                }
+                &__twitter{
+                    transition: all 0.35ss;
+                    &:hover {
+                        background: rgb(255, 255, 255);
+                        path{
+                            fill: rgb(62, 127, 211);
+
+                        }
+                    }
+                }
+                &__linkedin{
+                    transition: all 0.35ss;
+                    &:hover {
+                        background: rgb(255, 255, 255);
+                        path{
+                            fill: rgb(34, 98, 182);
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+.nav{
+    
+    .nav-list{
+        &__item{
+            font-family: Mulish;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 170%;
+            color: #333333;
+        }
+        &__link{
+            font-family: Mulish;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 170%;
+
+color: #333333;
+
+        }
+    }
+}
+
+.text{
+    &__copyright{
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 170%;
+        color: #333333;
+        max-width: 228px;
+        margin: 0 auto;
+   padding: 64px 0 32px 0;
+    }
+}
+}
+
+

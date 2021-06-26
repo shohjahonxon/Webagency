@@ -1,0 +1,92 @@
+@import '../css/header';
+@import'../css/res';
+@import '../css/burger';
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+  }
+  
+  li {
+    list-style-type: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+
+  .btn{
+      outline: none;
+      border: none;
+      background: none;
+      cursor: pointer;
+      &_sm{
+          &_color{
+              padding: 10px 32px;
+            background: #FFA149;
+            font-family: Mulish;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 170%;
+            color: #FFFFFF;
+            border: 1px solid #FFA149;
+            transition: all 0.35s;
+            &:hover{
+              border: 2px solid #FFA149;
+              background: #FFFFFF;
+              color: #FFA149;
+            }
+          }
+      }
+
+     &_color{
+        &_yellov{
+            background: #DDDDDD;
+            border-radius: 50%;
+            padding: 11px;
+            transition: all 0.35s;
+            &:hover{
+                background: #FFA149;
+
+            }
+        }
+     }
+     &_color{
+        &_hover{
+            border: 2px solid #FFA149;
+            box-sizing: border-box;
+            padding: 16px 87px;
+            transition: all 0.35s;
+            font-family: Mulish;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 170%;
+            color: #FFA149;
+
+            &:hover{
+                background:  #FFA149;
+                color: #ffffff;
+            }
+        }
+    }   
+  }
+ 
+  .btn-blok{
+    display: none;
+
+  }
+
+  .burger{
+    display: none;
+  }
